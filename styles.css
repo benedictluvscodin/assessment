@@ -1,0 +1,195 @@
+body {
+    font-family: 'roboto slab';
+}
+
+.top-bar-container {
+    background-color: #314b57;
+}
+
+.top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.map {
+    margin-bottom: -4px;
+}
+
+.service-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.service-images > div > a > img {
+    width: 100px;
+}
+
+.service-images div a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ab3c3c;
+    margin: 5px 0px;
+}
+
+h3 {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+p {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    color: grey;
+}
+
+.map > a > img {
+    width: 50vh
+}
+
+.service-area-body {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.service-area-body > div > img {
+    width: 250px
+}
+
+.service-text {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.service-body-text > p > a {
+    color: #ab3c3c;
+    text-decoration: none;
+}
+
+.service-cta {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.service-container {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.articles-heading {
+    font-size: 22px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.articles > div > img {
+    width: 100%;
+}
+
+.articles div p a {
+    color: #ab3c3c;
+}
+
+/*For Small Screens*/
+@media only screen and (max-width: 768px) {
+
+    .service-area-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+
+    .service-area-body > div > img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .map > a > img {
+        width: 100%;
+    }
+
+    .service-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+        }
+    
+}
+
+
+@media (max-width: 320px) {
+    .service-area-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+
+    .service-area-body > div > img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .map > a > img {
+        width: 100%;
+    }
+
+    .service-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+        }
+
+}
+
+
